@@ -21,7 +21,7 @@ img {
   width: 100%;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 20em) {
 
   img {
     width: 100%;
@@ -38,9 +38,27 @@ img {
 
 }
 
+@media only screen and (min-width: 25em) {
+
+  img {
+    width: 49%;
+    display: inline-block;
+  }
+
+  img:nth-child(2) {
+    display: inline-block;
+  }
+
+  img:nth-child(4) {
+    display: inline-block;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   img {
+    width: 100%;
     display: inline-block;
   }
 }
